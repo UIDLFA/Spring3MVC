@@ -11,7 +11,8 @@
 	<properties>
 		<spring.version>3.0.5.RELEASE</spring.version>
 	</properties>
-<plugin>
+<plugins>
+   <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
           <reportPlugins>
@@ -125,8 +126,7 @@
                   <version>3.0.5</version>
          </plugin>
       </plugins>
-    </pluginManagement>
-  </build>
+    </pluginManagement>  
 	<dependencies>
 
 		<!-- Spring 3 dependencies -->
