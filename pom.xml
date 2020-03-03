@@ -12,6 +12,7 @@
 		<spring.version>3.0.5.RELEASE</spring.version>
 	</properties>
   <build>
+    <finalName>SpringMVC</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -188,17 +189,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-		<finalName>SpringMVC</finalName>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
   
   <dependencies>
 		<!-- Spring 3 dependencies -->
